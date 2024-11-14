@@ -210,6 +210,7 @@ type (
 		Image     string   `json:"image,omitempty"`
 		Detached  bool     `json:"detached,omitempty"`
 		Schema    string   `json:"schema,omitempty"`
+		Display   string   `json:"display,omitempty"`
 	}
 
 	// Registry represents a docker registry with credentials.
