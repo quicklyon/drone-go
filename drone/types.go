@@ -191,6 +191,8 @@ type (
 		DependsOn []string          `json:"depends_on,omitempty"`
 		Labels    map[string]string `json:"labels,omitempty"`
 		Steps     []*Step           `json:"steps,omitempty"`
+
+		ChangedFiles []string `json:"changed_files,omitempty"`
 	}
 
 	// Step represents an individual step in the stage.
