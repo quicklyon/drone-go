@@ -160,6 +160,8 @@ type (
 		Updated      int64             `json:"updated"`
 		Version      int64             `json:"version"`
 		Stages       []*Stage          `json:"stages,omitempty"`
+
+		ChangedFiles []string `json:"changed_files,omitempty"`
 	}
 
 	// Stage represents a stage of build execution.
